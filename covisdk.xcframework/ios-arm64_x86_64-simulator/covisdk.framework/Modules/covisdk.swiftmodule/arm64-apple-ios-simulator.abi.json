@@ -1,0 +1,2146 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "covisdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoviPlayer",
+        "printedName": "CoviPlayer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC4typeSSvp",
+            "mangledName": "$s7covisdk10CoviPlayerC4typeSSvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC4typeSSvg",
+                "mangledName": "$s7covisdk10CoviPlayerC4typeSSvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC4typeSSvs",
+                "mangledName": "$s7covisdk10CoviPlayerC4typeSSvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC4typeSSvM",
+                "mangledName": "$s7covisdk10CoviPlayerC4typeSSvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pcode",
+            "printedName": "pcode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC5pcodeSSvp",
+            "mangledName": "$s7covisdk10CoviPlayerC5pcodeSSvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC5pcodeSSvg",
+                "mangledName": "$s7covisdk10CoviPlayerC5pcodeSSvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC5pcodeSSvs",
+                "mangledName": "$s7covisdk10CoviPlayerC5pcodeSSvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC5pcodeSSvM",
+                "mangledName": "$s7covisdk10CoviPlayerC5pcodeSSvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "category",
+            "printedName": "category",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC8categorySSvp",
+            "mangledName": "$s7covisdk10CoviPlayerC8categorySSvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC8categorySSvg",
+                "mangledName": "$s7covisdk10CoviPlayerC8categorySSvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC8categorySSvs",
+                "mangledName": "$s7covisdk10CoviPlayerC8categorySSvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC8categorySSvM",
+                "mangledName": "$s7covisdk10CoviPlayerC8categorySSvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "age",
+            "printedName": "age",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC3ageSiSgvp",
+            "mangledName": "$s7covisdk10CoviPlayerC3ageSiSgvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC3ageSiSgvg",
+                "mangledName": "$s7covisdk10CoviPlayerC3ageSiSgvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC3ageSiSgvs",
+                "mangledName": "$s7covisdk10CoviPlayerC3ageSiSgvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC3ageSiSgvM",
+                "mangledName": "$s7covisdk10CoviPlayerC3ageSiSgvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gender",
+            "printedName": "gender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC6genderSSSgvp",
+            "mangledName": "$s7covisdk10CoviPlayerC6genderSSSgvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC6genderSSSgvg",
+                "mangledName": "$s7covisdk10CoviPlayerC6genderSSSgvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC6genderSSSgvs",
+                "mangledName": "$s7covisdk10CoviPlayerC6genderSSSgvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC6genderSSSgvM",
+                "mangledName": "$s7covisdk10CoviPlayerC6genderSSSgvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idfa",
+            "printedName": "idfa",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC4idfaSSSgvp",
+            "mangledName": "$s7covisdk10CoviPlayerC4idfaSSSgvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC4idfaSSSgvg",
+                "mangledName": "$s7covisdk10CoviPlayerC4idfaSSSgvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC4idfaSSSgvs",
+                "mangledName": "$s7covisdk10CoviPlayerC4idfaSSSgvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC4idfaSSSgvM",
+                "mangledName": "$s7covisdk10CoviPlayerC4idfaSSSgvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "media",
+            "printedName": "media",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC5mediaSSSgvp",
+            "mangledName": "$s7covisdk10CoviPlayerC5mediaSSSgvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC5mediaSSSgvg",
+                "mangledName": "$s7covisdk10CoviPlayerC5mediaSSSgvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC5mediaSSSgvs",
+                "mangledName": "$s7covisdk10CoviPlayerC5mediaSSSgvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC5mediaSSSgvM",
+                "mangledName": "$s7covisdk10CoviPlayerC5mediaSSSgvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playType",
+            "printedName": "playType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayType",
+                "printedName": "covisdk.PlayType",
+                "usr": "s:7covisdk8PlayTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC8playTypeAA04PlayE0Ovp",
+            "mangledName": "$s7covisdk10CoviPlayerC8playTypeAA04PlayE0Ovp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayType",
+                    "printedName": "covisdk.PlayType",
+                    "usr": "s:7covisdk8PlayTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC8playTypeAA04PlayE0Ovg",
+                "mangledName": "$s7covisdk10CoviPlayerC8playTypeAA04PlayE0Ovg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayType",
+                    "printedName": "covisdk.PlayType",
+                    "usr": "s:7covisdk8PlayTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC8playTypeAA04PlayE0Ovs",
+                "mangledName": "$s7covisdk10CoviPlayerC8playTypeAA04PlayE0Ovs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC8playTypeAA04PlayE0OvM",
+                "mangledName": "$s7covisdk10CoviPlayerC8playTypeAA04PlayE0OvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoPlay",
+            "printedName": "autoPlay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC8autoPlaySbvp",
+            "mangledName": "$s7covisdk10CoviPlayerC8autoPlaySbvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC8autoPlaySbvg",
+                "mangledName": "$s7covisdk10CoviPlayerC8autoPlaySbvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC8autoPlaySbvs",
+                "mangledName": "$s7covisdk10CoviPlayerC8autoPlaySbvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC8autoPlaySbvM",
+                "mangledName": "$s7covisdk10CoviPlayerC8autoPlaySbvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLoad",
+            "printedName": "isLoad",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC6isLoadSbvp",
+            "mangledName": "$s7covisdk10CoviPlayerC6isLoadSbvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC6isLoadSbvg",
+                "mangledName": "$s7covisdk10CoviPlayerC6isLoadSbvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC6isLoadSbvs",
+                "mangledName": "$s7covisdk10CoviPlayerC6isLoadSbvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC6isLoadSbvM",
+                "mangledName": "$s7covisdk10CoviPlayerC6isLoadSbvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadContent",
+            "printedName": "loadContent(coviEventHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7covisdk10CoviPlayerC11loadContent16coviEventHandleryySSc_tF",
+            "mangledName": "$s7covisdk10CoviPlayerC11loadContent16coviEventHandleryySSc_tF",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@covisdk@objc(cs)CoviPlayer(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s7covisdk10CoviPlayerC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeye6ChangeG0aypGSgSvSgtF",
+            "moduleName": "covisdk",
+            "overriding": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoviPlayer",
+                "printedName": "covisdk.CoviPlayer",
+                "usr": "c:@M@covisdk@objc(cs)CoviPlayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@covisdk@objc(cs)CoviPlayer(im)initWithFrame:",
+            "mangledName": "$s7covisdk10CoviPlayerC5frameACSo6CGRectV_tcfc",
+            "moduleName": "covisdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "covisdk.CoviPlayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CoviPlayer",
+                    "printedName": "covisdk.CoviPlayer",
+                    "usr": "c:@M@covisdk@objc(cs)CoviPlayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@covisdk@objc(cs)CoviPlayer(im)initWithCoder:",
+            "mangledName": "$s7covisdk10CoviPlayerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "covisdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@covisdk@objc(cs)CoviPlayer",
+        "mangledName": "$s7covisdk10CoviPlayerC",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlayType",
+        "printedName": "PlayType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "auto_play",
+            "printedName": "auto_play",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(covisdk.PlayType.Type) -> covisdk.PlayType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayType",
+                    "printedName": "covisdk.PlayType",
+                    "usr": "s:7covisdk8PlayTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "covisdk.PlayType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayType",
+                        "printedName": "covisdk.PlayType",
+                        "usr": "s:7covisdk8PlayTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7covisdk8PlayTypeO9auto_playyA2CmF",
+            "mangledName": "$s7covisdk8PlayTypeO9auto_playyA2CmF",
+            "moduleName": "covisdk"
+          },
+          {
+            "kind": "Var",
+            "name": "click_to_play",
+            "printedName": "click_to_play",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(covisdk.PlayType.Type) -> covisdk.PlayType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlayType",
+                    "printedName": "covisdk.PlayType",
+                    "usr": "s:7covisdk8PlayTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "covisdk.PlayType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlayType",
+                        "printedName": "covisdk.PlayType",
+                        "usr": "s:7covisdk8PlayTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7covisdk8PlayTypeO13click_to_playyA2CmF",
+            "mangledName": "$s7covisdk8PlayTypeO13click_to_playyA2CmF",
+            "moduleName": "covisdk"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlayType",
+                "printedName": "covisdk.PlayType",
+                "usr": "s:7covisdk8PlayTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PlayType",
+                "printedName": "covisdk.PlayType",
+                "usr": "s:7covisdk8PlayTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7covisdk8PlayTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7covisdk8PlayTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "covisdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk8PlayTypeO9hashValueSivp",
+            "mangledName": "$s7covisdk8PlayTypeO9hashValueSivp",
+            "moduleName": "covisdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk8PlayTypeO9hashValueSivg",
+                "mangledName": "$s7covisdk8PlayTypeO9hashValueSivg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7covisdk8PlayTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7covisdk8PlayTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "covisdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7covisdk8PlayTypeO",
+        "mangledName": "$s7covisdk8PlayTypeO",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "covisdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "covisdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftyXMLParser",
+        "printedName": "SwiftyXMLParser",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "openBrowser",
+        "printedName": "openBrowser(url:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7covisdk11openBrowser3urlySSSg_tF",
+        "mangledName": "$s7covisdk11openBrowser3urlySSSg_tF",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Player",
+        "printedName": "Player",
+        "declKind": "Import",
+        "moduleName": "covisdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "covisdk"
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPlayer",
+        "printedName": "MediaPlayer",
+        "declKind": "Import",
+        "moduleName": "covisdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "covisdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "covisdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "covisdk"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "covisdk"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/CoviPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/CoviPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/CoviPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/CoviPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 564,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/CoviPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 593,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/TrackingEvent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/NativeItem1.swift",
+      "kind": "FloatLiteral",
+      "offset": 774,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/NativeItem1.swift",
+      "kind": "FloatLiteral",
+      "offset": 817,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/NativeItem1.swift",
+      "kind": "BooleanLiteral",
+      "offset": 870,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/NativeItem1.swift",
+      "kind": "BooleanLiteral",
+      "offset": 940,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 67,
+      "value": "\"\/VAST\/Ad\/InLine\/Creatives\/Creative\/Linear\/TrackingEvents\/Tracking\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 73,
+      "value": "\"\/VAST\/Ad\/InLine\/Creatives\/Creative\/NonLinearAds\/TrackingEvents\/Tracking\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 68,
+      "value": "\"\/VAST\/Ad\/Wrapper\/Creatives\/Creative\/Linear\/TrackingEvents\/Tracking\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 655,
+      "length": 74,
+      "value": "\"\/VAST\/Ad\/Wrapper\/Creatives\/Creative\/NonLinearAds\/TrackingEvents\/Tracking\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 770,
+      "length": 125,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 1,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 831,
+      "length": 1,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 861,
+      "length": 1,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 894,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 929,
+      "length": 13,
+      "value": "\"\/\/MediaFile\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 975,
+      "length": 12,
+      "value": "\"\/\/Duration\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 11,
+      "value": "\"\/\/AdTitle\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1064,
+      "length": 15,
+      "value": "\"\/\/Description\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
+      "length": 15,
+      "value": "\"\/\/VideoClicks\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1165,
+      "length": 14,
+      "value": "\"\/\/Impression\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 13,
+      "value": "\"\/\/Extension\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1259,
+      "length": 9,
+      "value": "\"\/\/Error\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1299,
+      "length": 10,
+      "value": "\"\/\/Linear\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VastAd.swift",
+      "kind": "Array",
+      "offset": 1552,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VideoClicks.swift",
+      "kind": "Array",
+      "offset": 188,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Models\/VideoClicks.swift",
+      "kind": "Array",
+      "offset": 222,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1128,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1149,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1179,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1210,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1244,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "StringLiteral",
+      "offset": 1704,
+      "length": 9,
+      "value": "\"http:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "StringLiteral",
+      "offset": 1810,
+      "length": 9,
+      "value": "\"http:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "StringLiteral",
+      "offset": 1827,
+      "length": 10,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "StringLiteral",
+      "offset": 2063,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "StringLiteral",
+      "offset": 2145,
+      "length": 18,
+      "value": "\"더 알아보기\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk\/covisdk\/Controllers\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2464,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Library\/Developer\/Xcode\/DerivedData\/covisdk-ccnofevwsjooojgwdwclozhrayrd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphonesimulator\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 12,
+      "value": "\"covi_64x64\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Library\/Developer\/Xcode\/DerivedData\/covisdk-ccnofevwsjooojgwdwclozhrayrd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphonesimulator\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
+      "length": 13,
+      "value": "\"pause_72x72\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Library\/Developer\/Xcode\/DerivedData\/covisdk-ccnofevwsjooojgwdwclozhrayrd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphonesimulator\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 25,
+      "value": "\"pause_circle_white_48pt\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Library\/Developer\/Xcode\/DerivedData\/covisdk-ccnofevwsjooojgwdwclozhrayrd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphonesimulator\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1195,
+      "length": 12,
+      "value": "\"play_72x72\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Library\/Developer\/Xcode\/DerivedData\/covisdk-ccnofevwsjooojgwdwclozhrayrd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphonesimulator\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1358,
+      "length": 24,
+      "value": "\"play_circle_white_48pt\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Library\/Developer\/Xcode\/DerivedData\/covisdk-ccnofevwsjooojgwdwclozhrayrd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphonesimulator\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1515,
+      "length": 14,
+      "value": "\"replay_72x72\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Library\/Developer\/Xcode\/DerivedData\/covisdk-ccnofevwsjooojgwdwclozhrayrd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphonesimulator\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1678,
+      "length": 23,
+      "value": "\"volume_off_white_36pt\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Library\/Developer\/Xcode\/DerivedData\/covisdk-ccnofevwsjooojgwdwclozhrayrd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphonesimulator\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1848,
+      "length": 22,
+      "value": "\"volume_up_white_36pt\""
+    },
+    {
+      "filePath": "\/Users\/covigroup\/Library\/Developer\/Xcode\/DerivedData\/covisdk-ccnofevwsjooojgwdwclozhrayrd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphonesimulator\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2003,
+      "length": 14,
+      "value": "\"power.circle\""
+    }
+  ]
+}

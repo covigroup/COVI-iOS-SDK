@@ -1,0 +1,43 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name covisdk
+import CoreMedia
+import DeveloperToolsSupport
+import Foundation
+import MediaPlayer
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import covisdk
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CoviPlayer : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var type: Swift.String
+  @_Concurrency.MainActor(unsafe) public var pcode: Swift.String
+  @_Concurrency.MainActor(unsafe) public var category: Swift.String
+  @_Concurrency.MainActor(unsafe) public var age: Swift.Int?
+  @_Concurrency.MainActor(unsafe) public var gender: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var idfa: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var media: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var playType: covisdk.PlayType
+  @_Concurrency.MainActor(unsafe) public var autoPlay: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var isLoad: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func loadContent(coviEventHandler eventHandler: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum PlayType {
+  case auto_play
+  case click_to_play
+  public static func == (a: covisdk.PlayType, b: covisdk.PlayType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func openBrowser(url: Swift.String?)
+extension covisdk.PlayType : Swift.Equatable {}
+extension covisdk.PlayType : Swift.Hashable {}

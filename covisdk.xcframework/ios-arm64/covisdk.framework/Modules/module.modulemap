@@ -1,0 +1,11 @@
+framework module covisdk {
+  umbrella header "covisdk.h"
+  export *
+
+  module * { export * }
+}
+
+module covisdk.Swift {
+  header "covisdk-Swift.h"
+  requires objc
+}
