@@ -1,6 +1,6 @@
 # COVI-iOS-SDK 
 [![Version](https://img.shields.io/cocoapods/v/COVI-iOS-SDK.svg?style=flat)](https://cocoapods.org/pods/COVI-iOS-SDK)
-[![SwiftPM](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)](https://swift.org/package-manager/)
+[![SwiftPM](https://img.shields.io/badge/SPM-not_supported-DE5C43.svg?style=flat)](https://swift.org/package-manager/)
 [![Swift Version](https://img.shields.io/badge/Swift-5.0+-magenta.svg)](https://swift.org)
 [![iOS](https://img.shields.io/badge/iOS-12+-blue.svg)](https://developer.apple.com/ios/)
 
