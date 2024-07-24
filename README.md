@@ -24,10 +24,3 @@
 * `COVI-iOS-SDK/Example`에서 `pod install`을 실행합니다.
 
 * `COVI-iOS-SDK.xcworkspace` 프로젝트를 실행합니다.
-
-### SPM
-* `COVI-iOS-SDK.xcodeproj` 프로젝트를 실행합니다.
-
-* Project > Package Dependencise 항목을 선택합니다.
-
-* `+` 버튼을 눌러 패키지 설치 윈도우가 나오면 우측 상단의 검색 창에서 패키지명 COVI-iOS-SDK 또는 레포지토리 주소 https://github.com/covigroup/COVI-iOS-SDK.git 를 입력합니다.
