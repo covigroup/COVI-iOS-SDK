@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.source = { :git => 'https://github.com/covigroup/COVI-iOS-SDK.git', :tag => s.version.to_s }
   s.swift_versions = ['5']
+  s.readme = 'https://html5sdk-dev.covi.co.kr/docs/ios/README.md'
   s.vendored_frameworks = 'covisdk.xcframework'
   s.dependency 'Alamofire', '~> 5.4.0'
   s.dependency 'Player', '~> 0.13.0'
