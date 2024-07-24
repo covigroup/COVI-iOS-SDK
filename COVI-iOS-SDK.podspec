@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   SDK for embedding a CoviPlayer in your project that meets VAST specifications and features viewability checks
                        DESC
   s.homepage = 'https://www.covi.co.kr/'
-  s.license = { :type => 'MIT', :file => 'LICENSE' }
+  s.license = { :type => 'Exclusive', :file => 'LICENSE' }
   s.ios.deployment_target = '12.0'
   s.source = { :git => 'https://github.com/covigroup/COVI-iOS-SDK.git', :tag => s.version.to_s }
   s.swift_versions = ['5']
