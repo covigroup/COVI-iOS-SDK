@@ -1,19 +1,39 @@
-Copyright (c) 2024 COVI
+COVI-iOS-SDK LICENSE AGREEMENT
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Copyright (c) 2024 COVI. All Rights Reserved.
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+This license agreement (the "Agreement") is made between COVI ("Licensor") and any person or  corp obtaining a copy of COVI-iOS-SDK ("Software").
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+1. Grant of License:
+
+Licensor grants Licensee a non-exclusive, non-transferable, limited license to use the Software solely for personal or internal business purposes. Commercial use requires a separate commercial license agreement with COVI
+
+2. Restrictions:
+
+a. Licensee shall not modify, adapt, translate, or create derivative works based on the Software.
+
+b. Licensee shall not sublicense, sell, lease, or rent the Software.
+
+c. Licensee shall not use the Software for any commercial purposes without obtaining a commercial license from COVI.
+
+d. Licensee shall not distribute or publicly display the Software.
+
+3. Ownership:
+
+All rights, title, and interest in and to the Software, including any modifications or derivative works, are owned by COVI. Licensee does not acquire any ownership rights by using the Software.
+
+4. Disclaimer of Warranty:
+
+The Software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall COVI. be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+
+5. Termination:
+
+This Agreement is effective until terminated. COVI may terminate this Agreement at any time if Licensee breaches any terms of this Agreement. Upon termination, Licensee must destroy all copies of the Software in its possession.
+
+6. Governing Law:
+
+This Agreement shall be governed by and construed in accordance with the laws of [Your Country/State], without regard to its conflict of law principles.
+
+For commercial licensing inquiries, please contact: [media@covi.co.kr]
+
+By using the Software, you acknowledge that you have read and understood this Agreement and agree to be bound by its terms and conditions.
