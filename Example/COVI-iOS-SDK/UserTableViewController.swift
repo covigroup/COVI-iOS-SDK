@@ -29,13 +29,12 @@ class UserTableViewController: UITableViewController {
         setNavBarClickView()
         setTableData()
         
-        // MARK: - viewDidLoad에서 COVI 옵션을 설정
+        // MARK: - viewDidLoad에서 COVI 옵션을 설정하고, COVI 플레이어를 로드
+        
+        // COVI 옵션 설정
         setCoviOpts()
-    }
-    
-    // MARK: - viewDidAppear에서 COVI 플레이어를 로드
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+
+        // COVI 플레이어 로드
         coviPlayer.loadContent(coviEventHandler: coviEventHandler)
     }
     

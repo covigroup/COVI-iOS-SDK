@@ -7,14 +7,23 @@
         <key>NSPrivacyTrackingDomains</key>
         <array>
             <string>https://vast-cfg.covi.co.kr</string>
+            <!-- 상용 config 서버 -->
             <string>https://cnp-vast.covi.co.kr</string>
+            <!-- 상용 vast api 서버 -->
             <string>https://cnp-adsrv.covi.co.kr</string>
+            <!-- 상용 이벤트 트래킹 광고 서버 -->
             <string>https://covi-plat-vast.beta.covi.co.kr/vast-cfg</string>
+            <!-- 개발용 config 서버 -->
             <string>https://covi-plat-vast.beta.covi.co.kr</string>
+            <!-- 개발용 vast api 서버 -->
             <string>https://covi-plat-adsrv.covi.co.kr</string>
+            <!-- 개발용 이벤트 트래킹 광고 서버 -->
         </array>
         <key>NSPrivacyCollectedDataTypes</key>
+        <!-- 앱이나 타사 SDK가 수집하는 각 데이터 유형에 대해 개인정보 파일의 배열에 사전을 추가하세요. -->
+        <!-- NSPrivacyCollectedDataTypes키 아래에 NSPrivacyCollectedDataType, NSPrivacyCollectedDataTypeLinked, NSPrivacyCollectedDataTypeTracking, NSPrivacyCollectedDataTypePurposes 키를 추가합니다.-->
         <array>
+<!--            광고 데이터 수집-->
             <dict>
                 <key>NSPrivacyCollectedDataType</key>
                 <string>NSPrivacyCollectedDataTypeAdvertisingData</string>
@@ -27,6 +36,7 @@
                     <string>NSPrivacyCollectedDataTypePurposeThirdPartyAdvertising</string>
                 </array>
             </dict>
+<!--            디바이스ID 수집-->
             <dict>
                 <key>NSPrivacyCollectedDataType</key>
                 <string>NSPrivacyCollectedDataTypeDeviceID</string>
@@ -35,10 +45,14 @@
                 <key>NSPrivacyCollectedDataTypeTracking</key>
                 <true/>
                 <key>NSPrivacyCollectedDataTypePurposes</key>
+                <!-- NSPrivacyCollectedDataTypePurposes-->
+                <!-- 앱이나 타사 SDK가 데이터를 수집하는 이유를 나열하는 문자열 배열입니다-->
+                <!-- 앱이나 타사 SDK가 이 데이터 유형을 수집하는 이유와 일치하는 아래 목적 목록에서 값을 선택합니다.-->
                 <array>
                     <string>NSPrivacyCollectedDataTypePurposeThirdPartyAdvertising</string>
                 </array>
             </dict>
+<!--            유저 상호작용 정보 수집-->
             <dict>
                 <key>NSPrivacyCollectedDataType</key>
                 <string>NSPrivacyCollectedDataTypeProductInteraction</string>
@@ -55,6 +69,7 @@
         </array>
         <key>NSPrivacyAccessedAPITypes</key>
         <array>
+<!--            이벤트 트래킹 로그 전송-->
             <dict>
                 <key>NSPrivacyAccessedAPIType</key>
                 <string>NSPrivacyAccessedAPICategorySystemBootTime</string>
