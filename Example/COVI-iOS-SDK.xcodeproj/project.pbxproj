@@ -12,12 +12,10 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		B7A836AD56B5F7D975A416B4 /* Pods_COVI_iOS_SDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6437FC227FB5FCB6933C00 /* Pods_COVI_iOS_SDK_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EB65465EE227C5620316774 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4D6437FC227FB5FCB6933C00 /* Pods_COVI_iOS_SDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVI_iOS_SDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB0696D7EDC2CE60264A375 /* COVI-iOS-SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "COVI-iOS-SDK.podspec"; path = "../COVI-iOS-SDK.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* COVI-iOS-SDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVI-iOS-SDK_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -26,8 +24,6 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BBD2644DF6365FF2A9091293 /* Pods-COVI-iOS-SDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVI-iOS-SDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-COVI-iOS-SDK_Example/Pods-COVI-iOS-SDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EAF7508AA8F1C8B602D5A0B7 /* Pods-COVI-iOS-SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVI-iOS-SDK_Example.release.xcconfig"; path = "Target Support Files/Pods-COVI-iOS-SDK_Example/Pods-COVI-iOS-SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F7B4E22DB4F3CB28382AABE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,7 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A836AD56B5F7D975A416B4 /* Pods_COVI_iOS_SDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +45,6 @@
 				607FACD21AFB9204008FA782 /* Example for COVI-iOS-SDK */,
 				607FACD11AFB9204008FA782 /* Products */,
 				68F86585EFED9593BBC307BE /* Pods */,
-				CD8A7E9D19683DB0EB48BDBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,18 +91,8 @@
 		68F86585EFED9593BBC307BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BBD2644DF6365FF2A9091293 /* Pods-COVI-iOS-SDK_Example.debug.xcconfig */,
-				EAF7508AA8F1C8B602D5A0B7 /* Pods-COVI-iOS-SDK_Example.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		CD8A7E9D19683DB0EB48BDBD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4D6437FC227FB5FCB6933C00 /* Pods_COVI_iOS_SDK_Example.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,11 +102,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "COVI-iOS-SDK_Example" */;
 			buildPhases = (
-				1C8621E92225454EB41A6AAD /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				B81B1A57949CCBF16345331D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,57 +162,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1C8621E92225454EB41A6AAD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-COVI-iOS-SDK_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B81B1A57949CCBF16345331D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-COVI-iOS-SDK_Example/Pods-COVI-iOS-SDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Player/Player.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyXMLParser/SwiftyXMLParser.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/COVI-iOS-SDK/covisdk.framework/covisdk",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Player.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyXMLParser.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/covisdk.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-COVI-iOS-SDK_Example/Pods-COVI-iOS-SDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -365,7 +296,6 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBD2644DF6365FF2A9091293 /* Pods-COVI-iOS-SDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53J7F3TX7Z;
@@ -387,7 +317,6 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF7508AA8F1C8B602D5A0B7 /* Pods-COVI-iOS-SDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53J7F3TX7Z;

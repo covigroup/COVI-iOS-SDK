@@ -52,6 +52,8 @@ class UserTableViewController: UITableViewController {
             
         // 선택
         coviPlayer.playType = .auto_play
+        // coviPlayer.useInAppWebview = false
+        coviPlayer.appViewController = self
     }
     
     // MARK: - 이벤트 핸들러 설정

@@ -11,7 +11,6 @@ import SafariServices
 import Swift
 import SwiftUI
 import UIKit
-import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -193,6 +192,8 @@ extension covisdk.Player {
   @_Concurrency.MainActor(unsafe) public var playType: covisdk.PlayType
   @_Concurrency.MainActor(unsafe) public var autoPlay: Swift.Bool
   @_Concurrency.MainActor(unsafe) public var isLoad: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var useInAppWebview: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var appViewController: UIKit.UIViewController?
   @_Concurrency.MainActor(unsafe) public func loadContent(coviEventHandler eventHandler: @escaping (Swift.String) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
@@ -307,7 +308,7 @@ public func ?<< <T>(lhs: inout [T], rhs: T?)
 }
 public func openBrowser(url: Swift.String?)
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public func openBrowserWithSafari(url: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func openBrowserWithSafari(url: Swift.String?, useInAppWebview: Swift.Bool?, appViewController: UIKit.UIViewController?)
 }
 extension covisdk.XML {
   open class Element {
