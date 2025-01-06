@@ -75,6 +75,13 @@ class UserTableViewController: UITableViewController {
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
+
+        case "PLAYER_LOAD_FAIL":
+            print("[covi] PLAYER_LOAD_FAIL")
+            shouldHideFirstSectionHeader = true
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
             
         case "PLAYER_VIDEO_PLAY":
             print("[covi] PLAYER_VIDEO_PLAY")

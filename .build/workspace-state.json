@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "covi-ios-sdk",
+          "kind" : "root",
+          "location" : "/Users/covigroup/Dev/COVI-iOS-SDK",
+          "name" : "COVI-iOS-SDK"
+        },
+        "path" : "/Users/covigroup/Dev/COVI-iOS-SDK/covisdk.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "COVI-iOS-SDK"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 6
+}

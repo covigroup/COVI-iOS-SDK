@@ -201,6 +201,10 @@ extension covisdk.Player {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+public enum ImageHolder {
+  case imageView(UIKit.UIImageView)
+  case button(UIKit.UIButton)
+}
 public enum PlayType {
   case auto_play
   case click_to_play
@@ -284,6 +288,12 @@ extension covisdk.XML {
     @objc deinit
   }
 }
+@_hasMissingDesignatedInitializers public class NetworkSession {
+  public static let shared: covisdk.NetworkSession
+  public func getSession() -> Foundation.URLSession
+  public func setupSessionDescription(_ description: Swift.String)
+  @objc deinit
+}
 public enum XMLError : Swift.Error {
   case failToEncodeString
   case interruptedParseError(rawError: any Swift.Error)
@@ -307,8 +317,6 @@ public func ?<< <T>(lhs: inout [T], rhs: T?)
   open class func document(_ accessor: covisdk.XML.Accessor) throws -> Swift.String
   @objc deinit
 }
-public func setupURLSessionDesc()
-public func openBrowser(url: Swift.String?)
 extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func openBrowserWithSafari(url: Swift.String?, useInAppWebview: Swift.Bool?, appViewController: UIKit.UIViewController?)
 }
@@ -323,6 +331,7 @@ extension covisdk.XML {
     @objc deinit
   }
 }
+public func openBrowser(url: Swift.String?)
 extension covisdk.PlayerError : Swift.Equatable {}
 extension covisdk.PlayerError : Swift.Hashable {}
 extension covisdk.Player.PlaybackState : Swift.Equatable {}

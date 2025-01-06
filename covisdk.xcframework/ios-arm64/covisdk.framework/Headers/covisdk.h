@@ -65,4 +65,8 @@ FOUNDATION_EXPORT const unsigned char covisdkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <covisdk/PublicHeader.h>
 
+// OMSDK import
 
+#ifdef covisdk_INTERNAL
+#import "OMIDImports.h"
+#endif
