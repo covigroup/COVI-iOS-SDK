@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		DVxL0YvO9WIHjQANeo23HIRMGuE=
+		tyL5vU8O9lMwbkF5ijrtavfq8dg=
 		</data>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		t1uZOMJ5SOjiAz6NkXMD5my4TWA=
+		qSzRSvdAoZUyxmL9M/xfJ7MSFS8=
 		</data>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		atYuk2PR3Lh9E6xlYMgYbMq79fw=
+		xd/x4+kv4CTfBc/ogrBVzglejPk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -106,7 +106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3gIXc2zope/1tznP2qizno4l5sfO5uIU2H9NoVOfnvU=
+			8re/tkX4oJxJ+Yg18GmK/4pMdma93p6/Zd6uy0mpEto=
 			</data>
 		</dict>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kCSJLXBIseiPmRUkYG/vtQVBHSdM7GAaLyhZlhqNQ0c=
+			WVMHl8ovbK4wVHeQ+XbWuF6RAaB0E/gGYsn3kkS0Tso=
 			</data>
 		</dict>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TgQgTjgjqztfdgBVYZuPsnVRjrN6upo3lcaKmY3PTRw=
+			sxZgMlSNPPWEhtxYqqJkw82KFfqapCF5z25ulmAaQ/A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

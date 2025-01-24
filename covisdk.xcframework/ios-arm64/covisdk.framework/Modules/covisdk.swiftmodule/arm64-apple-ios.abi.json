@@ -6019,8 +6019,7 @@
               "Preconcurrency",
               "Custom",
               "Override",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -6683,8 +6682,7 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6731,8 +6729,7 @@
             "mangledName": "$s7covisdk14NetworkSessionC03getC0So12NSURLSessionCyF",
             "moduleName": "covisdk",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -6758,8 +6755,7 @@
             "mangledName": "$s7covisdk14NetworkSessionC05setupC11DescriptionyySSF",
             "moduleName": "covisdk",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -11081,154 +11077,154 @@
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "Array",
-      "offset": 20380,
+      "offset": 20265,
       "length": 34,
       "value": "[\"tracks\", \"playable\", \"duration\"]"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
-      "offset": 33636,
+      "offset": 33521,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
-      "offset": 33693,
+      "offset": 33578,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
-      "offset": 33736,
+      "offset": 33621,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
-      "offset": 33941,
+      "offset": 33826,
       "length": 9,
       "value": "\"Version\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 34296,
+      "offset": 34181,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
-      "offset": 34543,
+      "offset": 34428,
       "length": 6,
       "value": "\"http\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 36323,
+      "offset": 36208,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "Array",
-      "offset": 36533,
+      "offset": 36418,
       "length": 12,
       "value": "[\"playable\"]"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
-      "offset": 39046,
+      "offset": 38552,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
-      "offset": 39577,
+      "offset": 38991,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
-      "offset": 39587,
+      "offset": 39001,
       "length": 35,
       "value": "\"video\/mp4,video\/*;q=0.9,*\/*;q=0.8\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
-      "offset": 39640,
+      "offset": 39054,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
-      "offset": 39654,
+      "offset": 39068,
       "length": 32,
       "value": "\"Mozilla\/5.0 COVI-iOS-SDK\/1.1.0\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
-      "offset": 39704,
+      "offset": 39118,
       "length": 9,
       "value": "\"Version\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
-      "offset": 39764,
+      "offset": 39178,
       "length": 12,
       "value": "\"Connection\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
-      "offset": 39778,
+      "offset": 39192,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
-      "offset": 40088,
+      "offset": 39502,
       "length": 32,
       "value": "\"COVI-iOS-SDK_Asset_Redirection\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 138,
+      "offset": 133,
       "length": 6,
       "value": "\"Covi\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 177,
+      "offset": 172,
       "length": 5,
       "value": "\"1.0\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 210,
+      "offset": 205,
       "length": 5,
       "value": "\"IAS\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 251,
       "length": 4,
       "value": "\"{}\""
     },
@@ -11277,14 +11273,14 @@
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/EventTracking\/Model\/TrackingEvent.swift",
       "kind": "BooleanLiteral",
-      "offset": 1157,
+      "offset": 916,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/OMSDK\/CoviPlayer\/Initialization.swift",
       "kind": "BooleanLiteral",
-      "offset": 620,
+      "offset": 586,
       "length": 5,
       "value": "false"
     },
@@ -11333,16 +11329,9 @@
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/OMSDK\/Core\/OMIDSession\/Interactor.swift",
       "kind": "StringLiteral",
-      "offset": 689,
+      "offset": 552,
       "length": 35,
       "value": "\"Unable to initialize OMID partner\""
-    },
-    {
-      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Shared\/Utilities\/BundleIdManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1265,
-      "length": 16,
-      "value": "\"kr.co.covi.ios\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
@@ -11438,72 +11427,65 @@
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1141,
+      "offset": 1084,
       "length": 55,
       "value": "\"\/VAST\/Ad\/InLine\/Creatives\/Creative\/Linear\/VideoClicks\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1350,
+      "offset": 1173,
       "length": 14,
       "value": "\"\/\/Impression\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1398,
+      "offset": 1221,
       "length": 13,
       "value": "\"\/\/Extension\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1444,
+      "offset": 1267,
       "length": 9,
       "value": "\"\/\/Error\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1484,
+      "offset": 1307,
       "length": 10,
       "value": "\"\/\/Linear\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "Array",
-      "offset": 1667,
+      "offset": 1490,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "Array",
-      "offset": 1745,
+      "offset": 1568,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 2252,
+      "offset": 2075,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 2346,
+      "offset": 2169,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13589,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/EventTracking\/Lib\/VideoClicks.swift",
@@ -11522,28 +11504,28 @@
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
       "kind": "StringLiteral",
-      "offset": 7192,
+      "offset": 5506,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
       "kind": "StringLiteral",
-      "offset": 7225,
+      "offset": 5539,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
       "kind": "BooleanLiteral",
-      "offset": 7265,
+      "offset": 5579,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
       "kind": "Dictionary",
-      "offset": 7448,
+      "offset": 5762,
       "length": 3,
       "value": "[]"
     },
@@ -11571,93 +11553,86 @@
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1320,
+      "offset": 1233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1351,
+      "offset": 1264,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1385,
+      "offset": 1298,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1417,
+      "offset": 1330,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1561,
+      "offset": 1378,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "Array",
-      "offset": 1826,
+      "offset": 1695,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2232,
+      "offset": 2049,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 3004,
+      "offset": 2555,
       "length": 9,
       "value": "\"http:\/\/\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 3110,
+      "offset": 2661,
       "length": 9,
       "value": "\"http:\/\/\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 3127,
+      "offset": 2678,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 3517,
+      "offset": 2963,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 3599,
+      "offset": 3045,
       "length": 18,
       "value": "\"더 알아보기\""
-    },
-    {
-      "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4777,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Modules\/VastParser\/SwiftyXMLParser\/Parser.swift",
@@ -11669,49 +11644,49 @@
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Shared\/Config\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 174,
+      "offset": 169,
       "length": 61,
       "value": "\"https:\/\/covi-plat-vast.beta.covi.co.kr\/vast-cfg\/config.covi\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Shared\/Config\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 271,
+      "offset": 266,
       "length": 46,
       "value": "\"https:\/\/vast-cfg.covi.co.kr\/vast\/config.covi\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Shared\/Config\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 355,
+      "offset": 350,
       "length": 55,
       "value": "\"https:\/\/covi-plat-vast.beta.covi.co.kr\/vast\/vast.covi\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Shared\/Config\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 444,
+      "offset": 439,
       "length": 44,
       "value": "\"https:\/\/cnp-vast.covi.co.kr\/vast\/vast.covi\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Shared\/Config\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 532,
+      "offset": 527,
       "length": 47,
       "value": "\"https:\/\/cnp-file.covi.co.kr\/info\/privacy.html\""
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Shared\/Networking\/HttpRequestManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 316,
+      "offset": 238,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/covigroup\/Projects\/ios-local\/SDK 소스코드\/covisdk 3\/covisdk\/Shared\/Networking\/HttpRequestManager.swift",
       "kind": "FloatLiteral",
-      "offset": 372,
+      "offset": 294,
       "length": 3,
       "value": "2.0"
     },
