@@ -1,0 +1,339 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name covisdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+import AVFoundation
+import CoreGraphics
+import CoreMedia
+import DeveloperToolsSupport
+import Foundation
+import MediaPlayer
+import SafariServices
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import covisdk
+public let PlayerErrorDomain: Swift.String
+public enum PlayerError : Swift.Error, Swift.CustomStringConvertible {
+  case failed
+  public var description: Swift.String {
+    get
+  }
+  public static func == (a: covisdk.PlayerError, b: covisdk.PlayerError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol PlayerDelegate : AnyObject {
+  func playerReady(_ player: covisdk.Player)
+  func playerPlaybackStateDidChange(_ player: covisdk.Player)
+  func playerBufferingStateDidChange(_ player: covisdk.Player)
+  func playerBufferTimeDidChange(_ bufferTime: Swift.Double)
+  func player(_ player: covisdk.Player, didFailWithError error: (any Swift.Error)?)
+  func applicationWillEnterForeground(_ player: covisdk.Player)
+}
+public protocol PlayerPlaybackDelegate : AnyObject {
+  func playerCurrentTimeDidChange(_ player: covisdk.Player)
+  func playerPlaybackWillStartFromBeginning(_ player: covisdk.Player)
+  func playerPlaybackDidEnd(_ player: covisdk.Player)
+  func playerPlaybackWillLoop(_ player: covisdk.Player)
+  func playerPlaybackDidLoop(_ player: covisdk.Player)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class Player : UIKit.UIViewController {
+  public typealias FillMode = AVFoundation.AVLayerVideoGravity
+  public enum PlaybackState : Swift.Int, Swift.CustomStringConvertible {
+    case stopped
+    case playing
+    case paused
+    case failed
+    public var description: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum BufferingState : Swift.Int, Swift.CustomStringConvertible {
+    case unknown
+    case ready
+    case delayed
+    public var description: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency weak open var playerDelegate: (any covisdk.PlayerDelegate)?
+  @_Concurrency.MainActor @preconcurrency weak open var playbackDelegate: (any covisdk.PlayerPlaybackDelegate)?
+  @_Concurrency.MainActor @preconcurrency open var url: Foundation.URL? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var asset: AVFoundation.AVAsset? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var fillMode: covisdk.Player.FillMode {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var autoplay: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var muted: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var volume: Swift.Float {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var playbackPausesWhenResigningActive: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var playbackPausesWhenBackgrounded: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var playbackResumesWhenBecameActive: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var playbackResumesWhenEnteringForeground: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var isPlayingVideo: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open var playbackLoops: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var playbackFreezesAtEnd: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var playbackState: covisdk.Player.PlaybackState {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var bufferingState: covisdk.Player.BufferingState {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency open var bufferSizeInSeconds: Swift.Double
+  @_Concurrency.MainActor @preconcurrency open var playbackEdgeTriggered: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var maximumDuration: Foundation.TimeInterval {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open var currentTimeInterval: Foundation.TimeInterval {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open var currentTime: CoreMedia.CMTime {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open var naturalSize: CoreFoundation.CGSize {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var playerView: covisdk.PlayerView {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency open func playerLayer() -> AVFoundation.AVPlayerLayer?
+  @_Concurrency.MainActor @preconcurrency open var preferredPeakBitRate: Swift.Double {
+    get
+    set
+  }
+  @available(iOS 11.0, tvOS 11.0, *)
+  @_Concurrency.MainActor @preconcurrency open var preferredMaximumResolution: CoreFoundation.CGSize {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func loadView()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
+}
+extension covisdk.Player {
+  @_Concurrency.MainActor @preconcurrency public var totalDurationWatched: Foundation.TimeInterval {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class PlayerView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency public var playerBackgroundColor: UIKit.UIColor? {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var playerFillMode: covisdk.Player.FillMode {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var isReadyForDisplay: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CoviPlayer : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public var type: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var pcode: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var category: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var age: Swift.Int?
+  @_Concurrency.MainActor @preconcurrency public var gender: Swift.String?
+  @_Concurrency.MainActor @preconcurrency public var idfa: Swift.String?
+  @_Concurrency.MainActor @preconcurrency public var media: Swift.String?
+  @_Concurrency.MainActor @preconcurrency public var playType: covisdk.PlayType
+  @_Concurrency.MainActor @preconcurrency public var autoPlay: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var isLoad: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var useInAppWebview: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var appViewController: UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency public var playerCornerRadius: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public func loadContent(coviEventHandler eventHandler: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func onPauseCoviPlayer()
+  @_Concurrency.MainActor @preconcurrency public func onResumeCoviPlayer()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum ImageHolder {
+  case imageView(UIKit.UIImageView)
+  case button(UIKit.UIButton)
+}
+public enum PlayType {
+  case auto_play
+  case click_to_play
+  public static func == (a: covisdk.PlayType, b: covisdk.PlayType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension covisdk.XML {
+  @dynamicMemberLookup public enum Accessor : Swift.CustomStringConvertible, Swift.Sequence {
+    case singleElement(covisdk.XML.Element)
+    case sequence([covisdk.XML.Element])
+    case failure(any Swift.Error)
+    public init(_ element: covisdk.XML.Element)
+    public init(_ sequence: [covisdk.XML.Element])
+    public init(_ error: any Swift.Error)
+    public subscript(dynamicMember member: Swift.String) -> covisdk.XML.Accessor {
+      get
+    }
+    public subscript(path: Swift.Array<any covisdk.XMLSubscriptType>) -> covisdk.XML.Accessor {
+      get
+    }
+    public subscript(path: any covisdk.XMLSubscriptType...) -> covisdk.XML.Accessor {
+      get
+    }
+    public var name: Swift.String? {
+      get
+    }
+    public var text: Swift.String? {
+      get
+    }
+    public var bool: Swift.Bool? {
+      get
+    }
+    public var url: Foundation.URL? {
+      get
+    }
+    public var int: Swift.Int? {
+      get
+    }
+    public var double: Swift.Double? {
+      get
+    }
+    public var attributes: [Swift.String : Swift.String] {
+      get
+    }
+    public var all: [covisdk.XML.Element]? {
+      get
+    }
+    public var names: [Swift.String]? {
+      get
+    }
+    public var error: (any Swift.Error)? {
+      get
+    }
+    public var element: covisdk.XML.Element? {
+      get
+    }
+    public var last: covisdk.XML.Accessor {
+      get
+    }
+    public var first: covisdk.XML.Accessor {
+      get
+    }
+    public func map<T>(_ transform: (covisdk.XML.Accessor) -> T) -> [T]
+    @available(*, renamed: "flatMap")
+    public func mapWithSqueezeNil<T>(_ transform: (covisdk.XML.Accessor) -> T?) -> [T]
+    public func makeIterator() -> Swift.AnyIterator<covisdk.XML.Accessor>
+    public var description: Swift.String {
+      get
+    }
+    public typealias Element = covisdk.XML.Accessor
+    public typealias Iterator = Swift.AnyIterator<covisdk.XML.Accessor>
+  }
+}
+extension covisdk.XML {
+  public class Converter {
+    public init(_ accessor: covisdk.XML.Accessor)
+    public func makeDocument() throws -> Swift.String
+    @objc deinit
+  }
+}
+@_hasMissingDesignatedInitializers public class NetworkSession {
+  public static let shared: covisdk.NetworkSession
+  public func getSession() -> Foundation.URLSession
+  public func setupSessionDescription(_ description: Swift.String)
+  @objc deinit
+}
+public enum XMLError : Swift.Error {
+  case failToEncodeString
+  case interruptedParseError(rawError: any Swift.Error)
+  case accessError(description: Swift.String)
+}
+public protocol XMLSubscriptType {
+}
+extension Swift.Int : covisdk.XMLSubscriptType {
+}
+extension Swift.String : covisdk.XMLSubscriptType {
+}
+infix operator ?= : DefaultPrecedence
+public func ?= <T>(lhs: inout T, rhs: T?)
+infix operator ?<< : DefaultPrecedence
+public func ?<< <T>(lhs: inout [T], rhs: T?)
+@_hasMissingDesignatedInitializers open class XML {
+  open class func parse(_ data: Foundation.Data) -> covisdk.XML.Accessor
+  open class func parse(_ str: Swift.String) throws -> covisdk.XML.Accessor
+  open class func parse(_ data: Foundation.Data, trimming manner: Foundation.CharacterSet) -> covisdk.XML.Accessor
+  open class func parse(_ str: Swift.String, trimming manner: Foundation.CharacterSet) throws -> covisdk.XML.Accessor
+  open class func document(_ accessor: covisdk.XML.Accessor) throws -> Swift.String
+  @objc deinit
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func openBrowserWithSafari(url: Swift.String?, useInAppWebview: Swift.Bool?, appViewController: UIKit.UIViewController?)
+}
+extension covisdk.XML {
+  open class Element {
+    open var name: Swift.String
+    open var text: Swift.String?
+    open var attributes: [Swift.String : Swift.String]
+    open var childElements: [covisdk.XML.Element]
+    weak open var parentElement: covisdk.XML.Element?
+    public init(name: Swift.String)
+    @objc deinit
+  }
+}
+public func openBrowser(url: Swift.String?)
+extension covisdk.PlayerError : Swift.Equatable {}
+extension covisdk.PlayerError : Swift.Hashable {}
+extension covisdk.Player.PlaybackState : Swift.Equatable {}
+extension covisdk.Player.PlaybackState : Swift.Hashable {}
+extension covisdk.Player.PlaybackState : Swift.RawRepresentable {}
+extension covisdk.Player.BufferingState : Swift.Equatable {}
+extension covisdk.Player.BufferingState : Swift.Hashable {}
+extension covisdk.Player.BufferingState : Swift.RawRepresentable {}
+extension covisdk.PlayType : Swift.Equatable {}
+extension covisdk.PlayType : Swift.Hashable {}
