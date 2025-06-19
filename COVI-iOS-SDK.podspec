@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'COVI-iOS-SDK'
-  s.version = '1.2.2'
+  s.version = '1.2.3'
   s.author = 'COVI'
   s.summary = 'SDK for embedding a CoviPlayer in your project'
   s.description = <<-DESC
