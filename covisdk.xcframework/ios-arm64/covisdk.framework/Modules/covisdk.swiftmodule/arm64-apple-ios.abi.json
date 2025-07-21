@@ -5696,6 +5696,410 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "playerUiLayout",
+            "printedName": "playerUiLayout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC14playerUiLayoutSSSgvp",
+            "mangledName": "$s7covisdk10CoviPlayerC14playerUiLayoutSSSgvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC14playerUiLayoutSSSgvg",
+                "mangledName": "$s7covisdk10CoviPlayerC14playerUiLayoutSSSgvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC14playerUiLayoutSSSgvs",
+                "mangledName": "$s7covisdk10CoviPlayerC14playerUiLayoutSSSgvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC14playerUiLayoutSSSgvM",
+                "mangledName": "$s7covisdk10CoviPlayerC14playerUiLayoutSSSgvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onClose",
+            "printedName": "onClose",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC7onCloseyycSgvp",
+            "mangledName": "$s7covisdk10CoviPlayerC7onCloseyycSgvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC7onCloseyycSgvg",
+                "mangledName": "$s7covisdk10CoviPlayerC7onCloseyycSgvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC7onCloseyycSgvs",
+                "mangledName": "$s7covisdk10CoviPlayerC7onCloseyycSgvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC7onCloseyycSgvM",
+                "mangledName": "$s7covisdk10CoviPlayerC7onCloseyycSgvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onLanding",
+            "printedName": "onLanding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC9onLandingyycSgvp",
+            "mangledName": "$s7covisdk10CoviPlayerC9onLandingyycSgvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC9onLandingyycSgvg",
+                "mangledName": "$s7covisdk10CoviPlayerC9onLandingyycSgvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC9onLandingyycSgvs",
+                "mangledName": "$s7covisdk10CoviPlayerC9onLandingyycSgvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC9onLandingyycSgvM",
+                "mangledName": "$s7covisdk10CoviPlayerC9onLandingyycSgvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "loadContent",
             "printedName": "loadContent(coviEventHandler:)",
@@ -10614,835 +11018,870 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 1454,
       "length": 19,
       "value": "\"PlayerErrorDomain\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 3223,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 3238,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 3259,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 3279,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 3811,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 3826,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 3845,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 5356,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 5932,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 6047,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 6151,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 6267,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 7036,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 7879,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 8004,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 9894,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 11238,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 11440,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "Array",
       "offset": 20056,
       "length": 34,
       "value": "[\"tracks\", \"playable\", \"duration\"]"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 33333,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 33390,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "IntegerLiteral",
       "offset": 33433,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 33638,
       "length": 9,
       "value": "\"Version\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 33989,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 34228,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 35961,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "Array",
       "offset": 36147,
       "length": 12,
       "value": "[\"playable\"]"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "BooleanLiteral",
       "offset": 38166,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 38579,
       "length": 8,
       "value": "\"Accept\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 38589,
       "length": 35,
       "value": "\"video\/mp4,video\/*;q=0.9,*\/*;q=0.8\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 38642,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 38656,
       "length": 32,
       "value": "\"Mozilla\/5.0 COVI-iOS-SDK\/1.1.0\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 38706,
       "length": 9,
       "value": "\"Version\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 38766,
       "length": 12,
       "value": "\"Connection\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 38780,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/Player\/Player.swift",
       "kind": "StringLiteral",
       "offset": 39070,
       "length": 32,
       "value": "\"COVI-iOS-SDK_Asset_Redirection\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
       "kind": "StringLiteral",
       "offset": 133,
       "length": 6,
       "value": "\"Covi\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
       "kind": "StringLiteral",
       "offset": 172,
       "length": 5,
       "value": "\"1.0\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 5,
       "value": "\"IAS\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/OMSDK\/Config\/OMSDKConstants.swift",
       "kind": "StringLiteral",
       "offset": 251,
       "length": 4,
       "value": "\"{}\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/CoviPlayer.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/CoviPlayer.swift",
       "kind": "StringLiteral",
       "offset": 301,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/CoviPlayer.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/CoviPlayer.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/CoviPlayer.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/CoviPlayer.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/CoviPlayer.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/CoviPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 547,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/CoviPlayer.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/CoviPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 576,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/CoviPlayer.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/CoviPlayer.swift",
       "kind": "BooleanLiteral",
       "offset": 615,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/CoviPlayer.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/CoviPlayer.swift",
       "kind": "IntegerLiteral",
       "offset": 713,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/EventTracking\/Model\/TrackingEvent.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/EventTracking\/Model\/TrackingEvent.swift",
       "kind": "BooleanLiteral",
       "offset": 916,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/OMSDK\/CoviPlayer\/Initialization.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/OMSDK\/CoviPlayer\/Initialization.swift",
       "kind": "BooleanLiteral",
       "offset": 586,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
       "kind": "FloatLiteral",
-      "offset": 752,
+      "offset": 747,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
       "kind": "FloatLiteral",
-      "offset": 795,
+      "offset": 790,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
       "kind": "BooleanLiteral",
-      "offset": 841,
+      "offset": 836,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
       "kind": "BooleanLiteral",
-      "offset": 913,
+      "offset": 908,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
       "kind": "BooleanLiteral",
-      "offset": 988,
+      "offset": 983,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
       "kind": "IntegerLiteral",
-      "offset": 1024,
+      "offset": 1019,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
       "kind": "BooleanLiteral",
-      "offset": 1061,
+      "offset": 1056,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
       "kind": "BooleanLiteral",
-      "offset": 1128,
+      "offset": 1220,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/OMSDK\/Core\/OMIDSession\/Interactor.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/OMSDK\/Core\/OMIDSession\/Interactor.swift",
       "kind": "StringLiteral",
       "offset": 552,
       "length": 35,
       "value": "\"Unable to initialize OMID partner\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 67,
       "value": "\"\/VAST\/Ad\/InLine\/Creatives\/Creative\/Linear\/TrackingEvents\/Tracking\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 388,
       "length": 73,
       "value": "\"\/VAST\/Ad\/InLine\/Creatives\/Creative\/NonLinearAds\/TrackingEvents\/Tracking\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 507,
       "length": 68,
       "value": "\"\/VAST\/Ad\/Wrapper\/Creatives\/Creative\/Linear\/TrackingEvents\/Tracking\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 624,
       "length": 74,
       "value": "\"\/VAST\/Ad\/Wrapper\/Creatives\/Creative\/NonLinearAds\/TrackingEvents\/Tracking\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 739,
       "length": 125,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 768,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 830,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 863,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 898,
       "length": 13,
       "value": "\"\/\/MediaFile\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 944,
       "length": 12,
       "value": "\"\/\/Duration\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 986,
       "length": 11,
       "value": "\"\/\/AdTitle\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 1033,
       "length": 15,
       "value": "\"\/\/Description\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 1084,
       "length": 55,
       "value": "\"\/VAST\/Ad\/InLine\/Creatives\/Creative\/Linear\/VideoClicks\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 1173,
       "length": 14,
       "value": "\"\/\/Impression\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 1221,
       "length": 13,
       "value": "\"\/\/Extension\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 1267,
       "length": 9,
       "value": "\"\/\/Error\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
       "offset": 1307,
       "length": 10,
       "value": "\"\/\/Linear\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "Array",
       "offset": 1483,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "Array",
       "offset": 1559,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "BooleanLiteral",
       "offset": 2052,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "BooleanLiteral",
       "offset": 2147,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/EventTracking\/Lib\/VideoClicks.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/EventTracking\/Lib\/VideoClicks.swift",
       "kind": "Array",
       "offset": 210,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/EventTracking\/Lib\/VideoClicks.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/EventTracking\/Lib\/VideoClicks.swift",
       "kind": "Array",
       "offset": 244,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
       "kind": "StringLiteral",
       "offset": 5156,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
       "kind": "StringLiteral",
       "offset": 5189,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
       "kind": "BooleanLiteral",
       "offset": 5229,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/API\/VastDocument.swift",
       "kind": "Dictionary",
       "offset": 5408,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1137,
+      "offset": 1219,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1158,
+      "offset": 1240,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1188,
+      "offset": 1270,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1218,
+      "offset": 1300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1249,
+      "offset": 1331,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1283,
+      "offset": 1399,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1315,
+      "offset": 1447,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1363,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "Array",
-      "offset": 1676,
+      "offset": 1760,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1959,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2008,
+      "offset": 1988,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2028,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2213,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2483,
+      "offset": 2688,
       "length": 9,
       "value": "\"http:\/\/\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2589,
+      "offset": 2794,
       "length": 9,
       "value": "\"http:\/\/\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2606,
+      "offset": 2811,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2876,
+      "offset": 3081,
       "length": 3,
       "value": "\"Y\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 2958,
+      "offset": 3163,
       "length": 18,
       "value": "\"더 알아보기\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Modules\/VastParser\/SwiftyXMLParser\/Parser.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/AdVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3841,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/SwiftyXMLParser\/Parser.swift",
       "kind": "StringLiteral",
       "offset": 2264,
       "length": 35,
       "value": "\"XML.Parser.AbstructedDocumentRoot\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Shared\/Config\/Constants.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Shared\/Config\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 61,
       "value": "\"https:\/\/covi-plat-vast.beta.covi.co.kr\/vast-cfg\/config.covi\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Shared\/Config\/Constants.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Shared\/Config\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 46,
       "value": "\"https:\/\/vast-cfg.covi.co.kr\/vast\/config.covi\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Shared\/Config\/Constants.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Shared\/Config\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 55,
       "value": "\"https:\/\/covi-plat-vast.beta.covi.co.kr\/vast\/vast.covi\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Shared\/Config\/Constants.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Shared\/Config\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 44,
       "value": "\"https:\/\/cnp-vast.covi.co.kr\/vast\/vast.covi\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Shared\/Config\/Constants.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Shared\/Config\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 47,
       "value": "\"https:\/\/cnp-file.covi.co.kr\/info\/privacy.html\""
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Shared\/Networking\/HttpRequestManager.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Shared\/Networking\/HttpRequestManager.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-1.2.1-source\/covisdk\/Shared\/Networking\/HttpRequestManager.swift",
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Shared\/Networking\/HttpRequestManager.swift",
       "kind": "FloatLiteral",
       "offset": 294,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-byghsbacmpfadzhahszmetftfkul\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-gcbxnwdrpftvkvcnqggbcaockomo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 732,
+      "offset": 747,
+      "length": 20,
+      "value": "\"close_button_96x96\""
+    },
+    {
+      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-gcbxnwdrpftvkvcnqggbcaockomo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 896,
       "length": 12,
       "value": "\"covi_64x64\""
     },
     {
-      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-byghsbacmpfadzhahszmetftfkul\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-gcbxnwdrpftvkvcnqggbcaockomo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 875,
+      "offset": 1039,
       "length": 13,
       "value": "\"pause_72x72\""
     },
     {
-      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-byghsbacmpfadzhahszmetftfkul\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-gcbxnwdrpftvkvcnqggbcaockomo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1041,
+      "offset": 1205,
       "length": 25,
       "value": "\"pause_circle_white_48pt\""
     },
     {
-      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-byghsbacmpfadzhahszmetftfkul\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-gcbxnwdrpftvkvcnqggbcaockomo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1195,
+      "offset": 1359,
       "length": 12,
       "value": "\"play_72x72\""
     },
     {
-      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-byghsbacmpfadzhahszmetftfkul\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-gcbxnwdrpftvkvcnqggbcaockomo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1358,
+      "offset": 1522,
       "length": 24,
       "value": "\"play_circle_white_48pt\""
     },
     {
-      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-byghsbacmpfadzhahszmetftfkul\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-gcbxnwdrpftvkvcnqggbcaockomo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1515,
+      "offset": 1679,
       "length": 14,
       "value": "\"replay_72x72\""
     },
     {
-      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-byghsbacmpfadzhahszmetftfkul\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-gcbxnwdrpftvkvcnqggbcaockomo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1678,
+      "offset": 1842,
       "length": 23,
       "value": "\"volume_off_white_36pt\""
     },
     {
-      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-byghsbacmpfadzhahszmetftfkul\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-gcbxnwdrpftvkvcnqggbcaockomo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1848,
+      "offset": 2012,
       "length": 22,
       "value": "\"volume_up_white_36pt\""
     },
     {
-      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-byghsbacmpfadzhahszmetftfkul\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/covisdk-gcbxnwdrpftvkvcnqggbcaockomo\/Build\/Intermediates.noindex\/ArchiveIntermediates\/covisdk\/IntermediateBuildFilesPath\/covisdk.build\/Release-iphoneos\/covisdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2003,
+      "offset": 2167,
       "length": 14,
       "value": "\"power.circle\""
     }

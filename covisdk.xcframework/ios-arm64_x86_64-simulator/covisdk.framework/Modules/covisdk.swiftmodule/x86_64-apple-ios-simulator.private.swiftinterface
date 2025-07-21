@@ -188,6 +188,9 @@ extension covisdk.Player {
   @_Concurrency.MainActor @preconcurrency public var useInAppWebview: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public var appViewController: UIKit.UIViewController?
   @_Concurrency.MainActor @preconcurrency public var playerCornerRadius: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public var playerUiLayout: Swift.String?
+  @_Concurrency.MainActor @preconcurrency public var onClose: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onLanding: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public func loadContent(coviEventHandler eventHandler: @escaping (Swift.String) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public func onPauseCoviPlayer()
   @_Concurrency.MainActor @preconcurrency public func onResumeCoviPlayer()
