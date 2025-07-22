@@ -2,13 +2,11 @@
 //  ViewController.swift
 //  COVI-iOS-SDK
 //
-//  Created by covi on 06/26/2024.
-//  Copyright (c) 2024 covi. All rights reserved.
+//  Copyright (c) 2025 covi. All rights reserved.
 //
 
 import UIKit
 import covisdk
-import os.log
 
 class UserTableViewController: UITableViewController {
     var section: Int = 0
@@ -46,7 +44,6 @@ class UserTableViewController: UITableViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(appDidBecomeActive), name: NSNotification.Name("AppDidBecomeActive"), object: nil)
 
         self.tableView.showsVerticalScrollIndicator = false
-//        setNavBarClickView()
         setTableData()
 
         navigationItem.rightBarButtonItem = UIBarButtonItem(
@@ -95,8 +92,11 @@ class UserTableViewController: UITableViewController {
     }
 
     func destroyCovi() {
+        coviPlayer?.removeFromSuperview()
         coviPlayer?.appViewController = nil
         coviPlayer = nil
+        
+        shouldShowCoviPlayer = false
     }
 
     func createCovi() -> CoviPlayer {
@@ -104,11 +104,11 @@ class UserTableViewController: UITableViewController {
         let height = ceil(width / 1440.0 * 810.0)
 
         let coviPlayer = CoviPlayer(frame: CGRect(origin: .zero, size: CGSize(width: width, height: height)))
-//        coviPlayer.translatesAutoresizingMaskIntoConstraints = false
 
+        // 필수
         coviPlayer.type = "dev"
-        coviPlayer.pcode = "hiclass_ios"
-        coviPlayer.category = "hiclass"
+        coviPlayer.pcode = "매체사 PCODE"
+        coviPlayer.category = "매체사 카테고리"
 
         // 권장
         coviPlayer.age = 20
@@ -118,7 +118,7 @@ class UserTableViewController: UITableViewController {
         // 선택
         coviPlayer.playType = .auto_play
         coviPlayer.playerCornerRadius = 0
-
+        
         return coviPlayer
     }
 
@@ -157,87 +157,6 @@ class UserTableViewController: UITableViewController {
         default:
             break
         }
-    }
-
-    func setNavBarClickView() {
-        let titleName = UILabel()
-        titleName.text = "Sample App"
-        titleName.font = UIFont.systemFont(ofSize: 22, weight: .bold)
-        titleName.textColor = .black
-        titleName.textAlignment = .left
-        titleName.sizeToFit()
-
-        let titleInfo = UILabel()
-        titleInfo.text = ""
-        titleInfo.font = UIFont.systemFont(ofSize: 12, weight: .medium)
-        titleInfo.textColor = .black
-        if #available(iOS 13.0, *) {
-            titleInfo.backgroundColor = .systemGray6
-        } else {
-            titleInfo.backgroundColor = .lightGray
-            // Fallback on earlier versions
-        }
-        titleInfo.textAlignment = .left
-        titleInfo.sizeToFit()
-
-        let stackView1 = UIStackView(arrangedSubviews: [titleName, titleInfo])
-        stackView1.axis = .horizontal
-        stackView1.distribution = .fillProportionally
-        stackView1.alignment = .leading
-        stackView1.spacing = 10
-
-        let nav1 = UILabel()
-        nav1.text = "tabBar1    |"
-        nav1.font = UIFont.boldSystemFont(ofSize: 12)
-        nav1.textColor = .black
-        nav1.textAlignment = .left
-        nav1.sizeToFit()
-
-        let nav2 = UILabel()
-        nav2.text = "tabBar2    |"
-        nav2.font = UIFont.boldSystemFont(ofSize: 12)
-        nav2.textColor = .black
-        nav2.textAlignment = .left
-        nav2.sizeToFit()
-
-        let nav3 = UILabel()
-        nav3.text = "tabBar3    |"
-        nav3.font = UIFont.boldSystemFont(ofSize: 12)
-        nav3.textColor = .black
-        nav3.textAlignment = .left
-        nav3.sizeToFit()
-
-        let nav4 = UILabel()
-        nav4.text = "tabBar4"
-        nav4.font = UIFont.boldSystemFont(ofSize: 12)
-        nav4.textColor = .black
-        nav4.textAlignment = .left
-        nav4.sizeToFit()
-
-        let nav5 = UILabel()
-        nav5.text = "                                          "
-        nav5.font = UIFont.boldSystemFont(ofSize: 12)
-        nav5.textColor = .black
-        nav5.textAlignment = .left
-        nav5.sizeToFit()
-
-        let stackView2 = UIStackView(arrangedSubviews: [nav1, nav2, nav3, nav4, nav5])
-        stackView2.axis = .horizontal
-        stackView2.distribution = .fillEqually
-        stackView2.alignment = .leading
-        stackView2.spacing = 5
-
-        let stackContainer1 = UIStackView(arrangedSubviews: [stackView1])
-        stackContainer1.axis = .vertical
-        stackContainer1.alignment = .leading
-        stackContainer1.spacing = 10
-
-        let stackContainer2 = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 44))
-
-        let newStackContainer = UIStackView(arrangedSubviews: [stackContainer1, stackContainer2])
-        newStackContainer.axis = .horizontal
-
-        self.navigationItem.titleView = newStackContainer
     }
 
     func setTableData() {
