@@ -11418,15 +11418,8 @@
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
-      "kind": "StringLiteral",
-      "offset": 1127,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VideoPlayer\/View\/NativeItem1.swift",
       "kind": "BooleanLiteral",
-      "offset": 1220,
+      "offset": 1224,
       "length": 5,
       "value": "false"
     },
