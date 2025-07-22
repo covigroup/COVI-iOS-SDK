@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		636A48442E2F5F73005D1531 /* COVI-iOS-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 636A48432E2F5F73005D1531 /* COVI-iOS-SDK */; };
+		636A48462E2F60F1005D1531 /* COVI-iOS-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 636A48452E2F60F1005D1531 /* COVI-iOS-SDK */; };
 		CCEFC4B4DF590373410B5EA4 /* Pods_COVI_iOS_SDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C4AE9C0A0A951CB3C19AAA /* Pods_COVI_iOS_SDK_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636A48462E2F60F1005D1531 /* COVI-iOS-SDK in Frameworks */,
+				636A48442E2F5F73005D1531 /* COVI-iOS-SDK in Frameworks */,
 				CCEFC4B4DF590373410B5EA4 /* Pods_COVI_iOS_SDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,7 +126,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				5842D37CCC7694EE8F3836C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +164,7 @@
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			packageReferences = (
+				636A48422E2F5F73005D1531 /* XCRemoteSwiftPackageReference "COVI-iOS-SDK" */,
 			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
@@ -185,24 +189,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5842D37CCC7694EE8F3836C8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-COVI-iOS-SDK_Example/Pods-COVI-iOS-SDK_Example-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/COVI-iOS-SDK/covisdk.framework/covisdk",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/covisdk.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-COVI-iOS-SDK_Example/Pods-COVI-iOS-SDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F60C278A41BFCF9519C6A656 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,7 +339,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -368,7 +355,10 @@
 				DEVELOPMENT_TEAM = 279ZT7HCQM;
 				INFOPLIST_FILE = "COVI-iOS-SDK/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.covi.COVI-iOS-SDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -393,7 +383,10 @@
 				DEVELOPMENT_TEAM = 279ZT7HCQM;
 				INFOPLIST_FILE = "COVI-iOS-SDK/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.covi.COVI-iOS-SDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +423,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		636A48422E2F5F73005D1531 /* XCRemoteSwiftPackageReference "COVI-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/covigroup/COVI-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		636A48432E2F5F73005D1531 /* COVI-iOS-SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 636A48422E2F5F73005D1531 /* XCRemoteSwiftPackageReference "COVI-iOS-SDK" */;
+			productName = "COVI-iOS-SDK";
+		};
+		636A48452E2F60F1005D1531 /* COVI-iOS-SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "COVI-iOS-SDK";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }
