@@ -12,10 +12,23 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		636A48442E2F5F73005D1531 /* COVI-iOS-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 636A48432E2F5F73005D1531 /* COVI-iOS-SDK */; };
-		636A48462E2F60F1005D1531 /* COVI-iOS-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 636A48452E2F60F1005D1531 /* COVI-iOS-SDK */; };
-		CCEFC4B4DF590373410B5EA4 /* Pods_COVI_iOS_SDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C4AE9C0A0A951CB3C19AAA /* Pods_COVI_iOS_SDK_Example.framework */; };
+		636A484E2E2F6631005D1531 /* covisdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636A484D2E2F6631005D1531 /* covisdk.xcframework */; };
+		636A484F2E2F6631005D1531 /* covisdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 636A484D2E2F6631005D1531 /* covisdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		636A48502E2F6631005D1531 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				636A484F2E2F6631005D1531 /* covisdk.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		27C4AE9C0A0A951CB3C19AAA /* Pods_COVI_iOS_SDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVI_iOS_SDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +42,7 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		62107AB8697E5995AA137C5E /* Pods-COVI-iOS-SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVI-iOS-SDK_Example.release.xcconfig"; path = "Target Support Files/Pods-COVI-iOS-SDK_Example/Pods-COVI-iOS-SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		636A484D2E2F6631005D1531 /* covisdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = covisdk.xcframework; path = ../covisdk.xcframework; sourceTree = "<group>"; };
 		ED480C598DC8412F0DE41988 /* Pods-COVI-iOS-SDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVI-iOS-SDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-COVI-iOS-SDK_Example/Pods-COVI-iOS-SDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F7B4E22DB4F3CB28382AABE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,9 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				636A48462E2F60F1005D1531 /* COVI-iOS-SDK in Frameworks */,
-				636A48442E2F5F73005D1531 /* COVI-iOS-SDK in Frameworks */,
-				CCEFC4B4DF590373410B5EA4 /* Pods_COVI_iOS_SDK_Example.framework in Frameworks */,
+				636A484E2E2F6631005D1531 /* covisdk.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +122,7 @@
 		6A538599B51D30435BDC9EEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				636A484D2E2F6631005D1531 /* covisdk.xcframework */,
 				27C4AE9C0A0A951CB3C19AAA /* Pods_COVI_iOS_SDK_Example.framework */,
 			);
 			name = Frameworks;
@@ -126,6 +139,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				636A48502E2F6631005D1531 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,7 +178,6 @@
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			packageReferences = (
-				636A48422E2F5F73005D1531 /* XCRemoteSwiftPackageReference "COVI-iOS-SDK" */,
 			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
@@ -423,29 +436,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		636A48422E2F5F73005D1531 /* XCRemoteSwiftPackageReference "COVI-iOS-SDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/covigroup/COVI-iOS-SDK";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.6;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		636A48432E2F5F73005D1531 /* COVI-iOS-SDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 636A48422E2F5F73005D1531 /* XCRemoteSwiftPackageReference "COVI-iOS-SDK" */;
-			productName = "COVI-iOS-SDK";
-		};
-		636A48452E2F60F1005D1531 /* COVI-iOS-SDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "COVI-iOS-SDK";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

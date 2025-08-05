@@ -191,6 +191,7 @@ extension covisdk.Player {
   @_Concurrency.MainActor @preconcurrency public var playerUiLayout: Swift.String?
   @_Concurrency.MainActor @preconcurrency public var onClose: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var onLanding: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var ignoreTabBarCheck: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public func loadContent(coviEventHandler eventHandler: @escaping (Swift.String) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public func onPauseCoviPlayer()
   @_Concurrency.MainActor @preconcurrency public func onResumeCoviPlayer()
