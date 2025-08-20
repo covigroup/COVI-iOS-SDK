@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HKUSvJeXAF/BfKnBWqZ/ucTzoIc=
+		6Ua3qEZZZ8lBtvylPz98URYl8Fs=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6yUjkZUCGjUUHT6cTuhNt3+SpfQ=
+		8FczXP5CYMBmjmfWEB+Hp8QKipE=
 		</data>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		l5PRf5BFG5t0Y+A+ziPBcHVvZ44=
+		8OKWMyeQTMTGWu9+5EH6eQJexGQ=
 		</data>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		l5PRf5BFG5t0Y+A+ziPBcHVvZ44=
+		8OKWMyeQTMTGWu9+5EH6eQJexGQ=
 		</data>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rfwgEo3tjt+g29bPpR/Ck5ubY48=
+		GeHiz9pAFvno1l2vbOFiJycuTjo=
 		</data>
 		<key>Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6yUjkZUCGjUUHT6cTuhNt3+SpfQ=
+		8FczXP5CYMBmjmfWEB+Hp8QKipE=
 		</data>
 		<key>Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		F5Sm1KqYrE57nFbyfUE6PFmQIo0=
+		5pRh4qPL6LVQY5xWRV0eAjPFTY0=
 		</data>
 		<key>Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		F5Sm1KqYrE57nFbyfUE6PFmQIo0=
+		5pRh4qPL6LVQY5xWRV0eAjPFTY0=
 		</data>
 		<key>Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1VVrFq/rK6c8ll3iVuZHUSyPM0I=
+		J+5YbA7jlPoANdKYPWNjzz8Ms+c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			soajL0ljO8ZPcdRNYmbv42v0t6OwAwtTtqmI7VP7hHw=
+			UZsqouBCAIydjCpcptN7K89ofjV2BaPxct1LqX36/ZY=
 			</data>
 		</dict>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z9v7H3wspUigBWCdEK72H8ln5JIndibOp4+PZH99HB8=
+			a/u2EC8rvC8vi0ULS1r5waztDlwDGWaB8StQH03WeBQ=
 			</data>
 		</dict>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -147,28 +147,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z9v7H3wspUigBWCdEK72H8ln5JIndibOp4+PZH99HB8=
+			a/u2EC8rvC8vi0ULS1r5waztDlwDGWaB8StQH03WeBQ=
 			</data>
 		</dict>
 		<key>Modules/covisdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NcllwWVaqGiiAS3+fleUrffR8YZYkvQjmBuDHuZ5xFM=
+			mGAl6NrHyjiUTBIE3lyuLPRj5SkKn4t1+EgDEs4abtM=
 			</data>
 		</dict>
 		<key>Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			soajL0ljO8ZPcdRNYmbv42v0t6OwAwtTtqmI7VP7hHw=
+			UZsqouBCAIydjCpcptN7K89ofjV2BaPxct1LqX36/ZY=
 			</data>
 		</dict>
 		<key>Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			arJxgctcOq2ytYgDFFdWiLd74+hql5BoCJqp0MDJU04=
+			TV2cVvUdPZWa27mrmctgEMn2sdv4GFzwSL3/m5zgFeU=
 			</data>
 		</dict>
 		<key>Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -182,14 +182,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			arJxgctcOq2ytYgDFFdWiLd74+hql5BoCJqp0MDJU04=
+			TV2cVvUdPZWa27mrmctgEMn2sdv4GFzwSL3/m5zgFeU=
 			</data>
 		</dict>
 		<key>Modules/covisdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yx3hfWhySPL5N/3O5U2N1YluQZCI6qMqms9Xz999Gws=
+			Z9eLFV5WtyvnEJgPdcRTuPqjjAziYVTBtgnMQaUwaSE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
