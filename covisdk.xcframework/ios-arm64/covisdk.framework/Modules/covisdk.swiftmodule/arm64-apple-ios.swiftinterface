@@ -192,12 +192,22 @@ extension covisdk.Player {
   @_Concurrency.MainActor @preconcurrency public var onClose: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var onLanding: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var ignoreTabBarCheck: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var useFullSize: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var title: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var bodycopy: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var thumbnailUrl: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var videoSize: CoreFoundation.CGSize
   @_Concurrency.MainActor @preconcurrency public func release()
   @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
   @_Concurrency.MainActor @preconcurrency public func loadContent(coviEventHandler eventHandler: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @_Concurrency.MainActor @preconcurrency public func onPauseCoviPlayer()
   @_Concurrency.MainActor @preconcurrency public func onResumeCoviPlayer()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor @preconcurrency public func toggleMute()
+  @_Concurrency.MainActor @preconcurrency public func mute()
+  @_Concurrency.MainActor @preconcurrency public func unmute()
+  @_Concurrency.MainActor @preconcurrency public func removeApplicationObservers()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
