@@ -6546,26 +6546,27 @@
           },
           {
             "kind": "Var",
-            "name": "videoSize",
-            "printedName": "videoSize",
+            "name": "logoUrl",
+            "printedName": "logoUrl",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "CGSize",
-                "printedName": "CoreFoundation.CGSize",
-                "usr": "c:@S@CGSize"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7covisdk10CoviPlayerC9videoSizeSo6CGSizeVvp",
-            "mangledName": "$s7covisdk10CoviPlayerC9videoSizeSo6CGSizeVvp",
+            "usr": "s:7covisdk10CoviPlayerC7logoUrlSSvp",
+            "mangledName": "$s7covisdk10CoviPlayerC7logoUrlSSvp",
             "moduleName": "covisdk",
             "declAttributes": [
               "HasInitialValue",
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6576,14 +6577,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CGSize",
-                    "printedName": "CoreFoundation.CGSize",
-                    "usr": "c:@S@CGSize"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7covisdk10CoviPlayerC9videoSizeSo6CGSizeVvg",
-                "mangledName": "$s7covisdk10CoviPlayerC9videoSizeSo6CGSizeVvg",
+                "usr": "s:7covisdk10CoviPlayerC7logoUrlSSvg",
+                "mangledName": "$s7covisdk10CoviPlayerC7logoUrlSSvg",
                 "moduleName": "covisdk",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6600,14 +6601,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "CGSize",
-                    "printedName": "CoreFoundation.CGSize",
-                    "usr": "c:@S@CGSize"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7covisdk10CoviPlayerC9videoSizeSo6CGSizeVvs",
-                "mangledName": "$s7covisdk10CoviPlayerC9videoSizeSo6CGSizeVvs",
+                "usr": "s:7covisdk10CoviPlayerC7logoUrlSSvs",
+                "mangledName": "$s7covisdk10CoviPlayerC7logoUrlSSvs",
                 "moduleName": "covisdk",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6624,8 +6625,97 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7covisdk10CoviPlayerC9videoSizeSo6CGSizeVvM",
-                "mangledName": "$s7covisdk10CoviPlayerC9videoSizeSo6CGSizeVvM",
+                "usr": "s:7covisdk10CoviPlayerC7logoUrlSSvM",
+                "mangledName": "$s7covisdk10CoviPlayerC7logoUrlSSvM",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "creativeId",
+            "printedName": "creativeId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7covisdk10CoviPlayerC10creativeIdSSvp",
+            "mangledName": "$s7covisdk10CoviPlayerC10creativeIdSSvp",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC10creativeIdSSvg",
+                "mangledName": "$s7covisdk10CoviPlayerC10creativeIdSSvg",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC10creativeIdSSvs",
+                "mangledName": "$s7covisdk10CoviPlayerC10creativeIdSSvs",
+                "moduleName": "covisdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7covisdk10CoviPlayerC10creativeIdSSvM",
+                "mangledName": "$s7covisdk10CoviPlayerC10creativeIdSSvM",
                 "moduleName": "covisdk",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6862,6 +6952,75 @@
           },
           {
             "kind": "Function",
+            "name": "playVideo",
+            "printedName": "playVideo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7covisdk10CoviPlayerC9playVideoyyF",
+            "mangledName": "$s7covisdk10CoviPlayerC9playVideoyyF",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseVideo",
+            "printedName": "pauseVideo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7covisdk10CoviPlayerC10pauseVideoyyF",
+            "mangledName": "$s7covisdk10CoviPlayerC10pauseVideoyyF",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "replayVideo",
+            "printedName": "replayVideo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7covisdk10CoviPlayerC11replayVideoyyF",
+            "mangledName": "$s7covisdk10CoviPlayerC11replayVideoyyF",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "toggleMute",
             "printedName": "toggleMute()",
             "children": [
@@ -6924,6 +7083,29 @@
               "Preconcurrency",
               "Custom",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "restartPlayback",
+            "printedName": "restartPlayback()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7covisdk10CoviPlayerC15restartPlaybackyyF",
+            "mangledName": "$s7covisdk10CoviPlayerC15restartPlaybackyyF",
+            "moduleName": "covisdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -12061,17 +12243,17 @@
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/CoviPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1438,
-      "length": 1,
-      "value": "0"
+      "kind": "StringLiteral",
+      "offset": 1454,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/CoviPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1449,
-      "length": 1,
-      "value": "0"
+      "kind": "StringLiteral",
+      "offset": 1517,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/EventTracking\/Model\/TrackingEvent.swift",
@@ -12167,161 +12349,168 @@
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 273,
+      "offset": 309,
       "length": 67,
       "value": "\"\/VAST\/Ad\/InLine\/Creatives\/Creative\/Linear\/TrackingEvents\/Tracking\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 388,
+      "offset": 424,
       "length": 73,
       "value": "\"\/VAST\/Ad\/InLine\/Creatives\/Creative\/NonLinearAds\/TrackingEvents\/Tracking\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 507,
+      "offset": 543,
       "length": 68,
       "value": "\"\/VAST\/Ad\/Wrapper\/Creatives\/Creative\/Linear\/TrackingEvents\/Tracking\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 624,
+      "offset": 660,
       "length": 74,
       "value": "\"\/VAST\/Ad\/Wrapper\/Creatives\/Creative\/NonLinearAds\/TrackingEvents\/Tracking\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 739,
+      "offset": 775,
       "length": 125,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 768,
+      "offset": 804,
       "length": 1,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 800,
+      "offset": 836,
       "length": 1,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 830,
+      "offset": 866,
       "length": 1,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 863,
+      "offset": 899,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 898,
+      "offset": 934,
       "length": 13,
       "value": "\"\/\/MediaFile\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 944,
+      "offset": 980,
       "length": 12,
       "value": "\"\/\/Duration\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 986,
+      "offset": 1022,
       "length": 11,
       "value": "\"\/\/AdTitle\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1069,
       "length": 15,
       "value": "\"\/\/Description\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1084,
+      "offset": 1120,
       "length": 55,
       "value": "\"\/VAST\/Ad\/InLine\/Creatives\/Creative\/Linear\/VideoClicks\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1173,
+      "offset": 1209,
       "length": 14,
       "value": "\"\/\/Impression\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1221,
+      "offset": 1257,
       "length": 13,
       "value": "\"\/\/Extension\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1267,
+      "offset": 1303,
       "length": 9,
       "value": "\"\/\/Error\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 1367,
       "length": 10,
       "value": "\"\/\/Linear\""
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1442,
+      "length": 36,
+      "value": "\"\/VAST\/Ad\/InLine\/Creatives\/Creative\""
+    },
+    {
+      "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "Array",
-      "offset": 1507,
+      "offset": 1643,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "Array",
-      "offset": 1583,
+      "offset": 1719,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 2076,
+      "offset": 2212,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 2171,
+      "offset": 2307,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/WorkSpace\/Covi\/iOS\/COVI-iOS-SDK-source\/covisdk\/Modules\/VastParser\/Model\/VastAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 2298,
+      "offset": 2434,
       "length": 4,
       "value": "true"
     },
