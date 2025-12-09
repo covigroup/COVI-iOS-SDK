@@ -186,13 +186,15 @@ extension covisdk.Player {
   @_Concurrency.MainActor @preconcurrency public var autoPlay: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public var isLoad: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public var useInAppWebview: Swift.Bool
-  @_Concurrency.MainActor @preconcurrency public var appViewController: UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency weak public var appViewController: UIKit.UIViewController?
   @_Concurrency.MainActor @preconcurrency public var playerCornerRadius: Swift.Int
   @_Concurrency.MainActor @preconcurrency public var playerUiLayout: Swift.String?
   @_Concurrency.MainActor @preconcurrency public var onClose: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var onLanding: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var ignoreTabBarCheck: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public var useFullSize: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var customVastUrl: Swift.String?
+  @_Concurrency.MainActor @preconcurrency public var shouldReleaseOnDetach: Swift.Bool
   @_Concurrency.MainActor @preconcurrency public var title: Swift.String
   @_Concurrency.MainActor @preconcurrency public var bodycopy: Swift.String
   @_Concurrency.MainActor @preconcurrency public var thumbnailUrl: Swift.String
