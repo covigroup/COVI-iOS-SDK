@@ -310,6 +310,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 SWIFT_CLASS("_TtC7covisdk10CoviPlayer")
 @interface CoviPlayer : UIView
+- (void)layoutSubviews;
 - (void)didMoveToWindow;
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
@@ -656,6 +657,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 SWIFT_CLASS("_TtC7covisdk10CoviPlayer")
 @interface CoviPlayer : UIView
+- (void)layoutSubviews;
 - (void)didMoveToWindow;
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;

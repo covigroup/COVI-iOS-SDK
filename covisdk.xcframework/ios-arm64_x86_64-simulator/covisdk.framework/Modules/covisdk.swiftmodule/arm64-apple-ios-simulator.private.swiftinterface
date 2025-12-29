@@ -201,6 +201,7 @@ extension covisdk.Player {
   @_Concurrency.MainActor @preconcurrency public var logoUrl: Swift.String
   @_Concurrency.MainActor @preconcurrency public var creativeId: Swift.String
   @_Concurrency.MainActor @preconcurrency public func release()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
   @_Concurrency.MainActor @preconcurrency public func loadContent(coviEventHandler eventHandler: @escaping (Swift.String) -> Swift.Void)
