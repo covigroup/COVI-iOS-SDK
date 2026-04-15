@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name covisdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AVFoundation
 import CoreGraphics
 import CoreMedia
@@ -33,7 +33,9 @@ public protocol PlayerDelegate : AnyObject {
   func playerPlaybackStateDidChange(_ player: covisdk.Player)
   func playerBufferingStateDidChange(_ player: covisdk.Player)
   func playerBufferTimeDidChange(_ bufferTime: Swift.Double)
+  #if compiler(>=5.3) && $NonescapableTypes
   func player(_ player: covisdk.Player, didFailWithError error: (any Swift.Error)?)
+  #endif
   func applicationWillEnterForeground(_ player: covisdk.Player)
 }
 public protocol PlayerPlaybackDelegate : AnyObject {
@@ -53,7 +55,9 @@ public protocol PlayerPlaybackDelegate : AnyObject {
     public var description: Swift.String {
       get
     }
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -66,7 +70,9 @@ public protocol PlayerPlaybackDelegate : AnyObject {
     public var description: Swift.String {
       get
     }
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -78,10 +84,12 @@ public protocol PlayerPlaybackDelegate : AnyObject {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open var asset: AVFoundation.AVAsset? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency open var fillMode: covisdk.Player.FillMode {
     get
     set
@@ -132,7 +140,9 @@ public protocol PlayerPlaybackDelegate : AnyObject {
   @_Concurrency.MainActor @preconcurrency public var playerView: covisdk.PlayerView {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open func playerLayer() -> AVFoundation.AVPlayerLayer?
+  #endif
   @_Concurrency.MainActor @preconcurrency open var preferredPeakBitRate: Swift.Double {
     get
     set
@@ -143,8 +153,12 @@ public protocol PlayerPlaybackDelegate : AnyObject {
     set
   }
   @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func loadView()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
@@ -159,10 +173,12 @@ extension covisdk.Player {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public class var layerClass: Swift.AnyClass {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public var playerBackgroundColor: UIKit.UIColor? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency public var playerFillMode: covisdk.Player.FillMode {
     get
     set
@@ -171,7 +187,9 @@ extension covisdk.Player {
     get
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CoviPlayer : UIKit.UIView {
@@ -200,12 +218,15 @@ extension covisdk.Player {
   @_Concurrency.MainActor @preconcurrency public var thumbnailUrl: Swift.String
   @_Concurrency.MainActor @preconcurrency public var logoUrl: Swift.String
   @_Concurrency.MainActor @preconcurrency public var creativeId: Swift.String
+  @_Concurrency.MainActor @preconcurrency public func prepare()
   @_Concurrency.MainActor @preconcurrency public func release()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
   @_Concurrency.MainActor @preconcurrency public func loadContent(coviEventHandler eventHandler: @escaping (Swift.String) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func onPauseCoviPlayer()
   @_Concurrency.MainActor @preconcurrency public func onResumeCoviPlayer()
   @_Concurrency.MainActor @preconcurrency public func playVideo()
@@ -217,7 +238,9 @@ extension covisdk.Player {
   @_Concurrency.MainActor @preconcurrency public func restartPlayback()
   @_Concurrency.MainActor @preconcurrency public func removeApplicationObservers()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
 }
 public enum ImageHolder {
   case imageView(UIKit.UIImageView)
@@ -249,39 +272,59 @@ extension covisdk.XML {
     public subscript(path: any covisdk.XMLSubscriptType...) -> covisdk.XML.Accessor {
       get
     }
+    #if compiler(>=5.3) && $NonescapableTypes
     public var name: Swift.String? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var text: Swift.String? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var bool: Swift.Bool? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var url: Foundation.URL? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var int: Swift.Int? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var double: Swift.Double? {
       get
     }
+    #endif
     public var attributes: [Swift.String : Swift.String] {
       get
     }
+    #if compiler(>=5.3) && $NonescapableTypes
     public var all: [covisdk.XML.Element]? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var names: [Swift.String]? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var error: (any Swift.Error)? {
       get
     }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public var element: covisdk.XML.Element? {
       get
     }
+    #endif
     public var last: covisdk.XML.Accessor {
       get
     }
@@ -289,8 +332,10 @@ extension covisdk.XML {
       get
     }
     public func map<T>(_ transform: (covisdk.XML.Accessor) -> T) -> [T]
+    #if compiler(>=5.3) && $NonescapableTypes
     @available(*, renamed: "flatMap")
     public func mapWithSqueezeNil<T>(_ transform: (covisdk.XML.Accessor) -> T?) -> [T]
+    #endif
     public func makeIterator() -> Swift.AnyIterator<covisdk.XML.Accessor>
     public var description: Swift.String {
       get
@@ -324,9 +369,13 @@ extension Swift.Int : covisdk.XMLSubscriptType {
 extension Swift.String : covisdk.XMLSubscriptType {
 }
 infix operator ?= : DefaultPrecedence
+#if compiler(>=5.3) && $NonescapableTypes
 public func ?= <T>(lhs: inout T, rhs: T?)
+#endif
 infix operator ?<< : DefaultPrecedence
+#if compiler(>=5.3) && $NonescapableTypes
 public func ?<< <T>(lhs: inout [T], rhs: T?)
+#endif
 @_hasMissingDesignatedInitializers open class XML {
   open class func parse(_ data: Foundation.Data) -> covisdk.XML.Accessor
   open class func parse(_ str: Swift.String) throws -> covisdk.XML.Accessor
@@ -346,7 +395,9 @@ extension covisdk.XML {
     @objc deinit
   }
 }
+#if compiler(>=5.3) && $NonescapableTypes
 public func openBrowser(url: Swift.String?)
+#endif
 extension covisdk.PlayerError : Swift.Equatable {}
 extension covisdk.PlayerError : Swift.Hashable {}
 extension covisdk.Player.PlaybackState : Swift.Equatable {}
