@@ -7,5 +7,4 @@ framework module covisdk {
 
 module covisdk.Swift {
   header "covisdk-Swift.h"
-  requires objc
 }
